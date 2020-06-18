@@ -10,9 +10,9 @@ var config = require('./config');
 var producer = require('./sample_producer');
 
 AWS.config.update({
-    accessKeyId: "AKIAJPLX2GNZSWYQ4UQA",
-    secretAccessKey: "y1a/ABHgWRxw2h9s/r7ZkeTKa/zFN0B8Rg0ePPAx",
-    "region": "ap-south-1"
+    accessKeyId: "",
+    secretAccessKey: "",
+    "region": ""
 });
 //var kinesis = new AWS.Kinesis({ region: config.kinesis.region });
 var kinesis = new AWS.Firehose;
